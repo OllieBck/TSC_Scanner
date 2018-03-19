@@ -7,16 +7,20 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "org.adaptivedesign"
     },
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "org.adaptivedesign"
-    },
-    "cordova-plugin-tts": {
-      "PACKAGE_NAME": "org.adaptivedesign"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-swift-support": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    }
+  }
 }

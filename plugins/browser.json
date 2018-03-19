@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "org.adaptivedesign"
+        },
+        "cordova-plugin-tts": {
+            "PACKAGE_NAME": "org.adaptivedesign"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "org.adaptivedesign"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.adaptivedesign"
+        },
+        "cordova-plugin-swift-support": {
+            "PACKAGE_NAME": "org.adaptivedesign"
+        }
+    }
+}

@@ -7,16 +7,25 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "org.adaptivedesign"
     },
     "phonegap-plugin-barcodescanner": {
-      "CAMERA_USAGE_DESCRIPTION": " ",
-      "PACKAGE_NAME": "org.adaptivedesign"
-    },
-    "cordova-plugin-camera": {
       "PACKAGE_NAME": "org.adaptivedesign"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    },
+    "cordova-plugin-swift-support": {
+      "PACKAGE_NAME": "org.adaptivedesign"
+    }
+  }
 }

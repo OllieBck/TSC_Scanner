@@ -91,7 +91,6 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-qrscanner/adaptivedesign-qrscanner.gradle"
 apply from: "../phonegap-plugin-barcodescanner/adaptivedesign-barcodescanner.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 

@@ -13,7 +13,6 @@
     "cordova-android": "^7.0.0",
     "cordova-ios": "^4.5.4",
     "cordova-plugin-compat": "^1.2.0",
-    "cordova-plugin-qrscanner": "^2.5.0",
     "cordova-plugin-qrscanner3": "^2.5.2-build8",
     "cordova-plugin-swift-support": "^3.1.1",
     "cordova-plugin-tts": "^0.2.3",
@@ -23,7 +22,6 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-qrscanner": {},
       "phonegap-plugin-barcodescanner": {
         "ANDROID_SUPPORT_V4_VERSION": "27.+",
         "CAMERA_USAGE_DESCRIPTION": " "

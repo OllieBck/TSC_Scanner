@@ -16,7 +16,6 @@
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		5EDC5503ED1E4D51822332AA /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D8701AE1D4FB59851382F /* QRScanner.swift */; };
 		AAC45A0668A946B0B1EAD997 /* CDVBarcodeScanner.mm in Resources */ = {isa = PBXBuildFile; fileRef = 076D0DF988784D44A4CC5204 /* CDVBarcodeScanner.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		834B661A82184A7FB4D7E6E7 /* zxing-all-in-one.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 2B08E0B17A2E4F69A0C3DBB4 /* zxing-all-in-one.cpp */; };
 		4E68CFF1EA9F4AC191994B8B /* scannerOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027A2F2A8B1E4A28B4F7325E /* scannerOverlay.xib */; };
@@ -67,7 +66,6 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "QR_Cam_Code/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		AB4D8701AE1D4FB59851382F /* QRScanner.swift */ = {isa = PBXFileReference; name = "QRScanner.swift"; path = "cordova-plugin-qrscanner/QRScanner.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 		076D0DF988784D44A4CC5204 /* CDVBarcodeScanner.mm */ = {isa = PBXFileReference; name = "CDVBarcodeScanner.mm"; path = "phonegap-plugin-barcodescanner/CDVBarcodeScanner.mm"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2B08E0B17A2E4F69A0C3DBB4 /* zxing-all-in-one.cpp */ = {isa = PBXFileReference; name = "zxing-all-in-one.cpp"; path = "phonegap-plugin-barcodescanner/zxing-all-in-one.cpp"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6DDB4C9A362C465991A12975 /* zxing-all-in-one.h */ = {isa = PBXFileReference; name = "zxing-all-in-one.h"; path = "phonegap-plugin-barcodescanner/zxing-all-in-one.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
@@ -196,7 +194,6 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				AB4D8701AE1D4FB59851382F /* QRScanner.swift */,
 				076D0DF988784D44A4CC5204 /* CDVBarcodeScanner.mm */,
 				2B08E0B17A2E4F69A0C3DBB4 /* zxing-all-in-one.cpp */,
 				6DDB4C9A362C465991A12975 /* zxing-all-in-one.h */,
@@ -314,7 +311,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				5EDC5503ED1E4D51822332AA /* QRScanner.swift in Sources */,
 				AAC45A0668A946B0B1EAD997 /* CDVBarcodeScanner.mm in Resources */,
 				834B661A82184A7FB4D7E6E7 /* zxing-all-in-one.cpp in Resources */,
 			);

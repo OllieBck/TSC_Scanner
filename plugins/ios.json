@@ -1,26 +1,19 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "org.adaptivedesign"
     },
-    "config_munge": {
-        "files": {}
-    },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "org.adaptivedesign"
-        },
-        "cordova-plugin-qrscanner": {
-            "PACKAGE_NAME": "org.adaptivedesign"
-        },
-        "phonegap-plugin-barcodescanner": {
-            "CAMERA_USAGE_DESCRIPTION": " ",
-            "PACKAGE_NAME": "org.adaptivedesign"
-        }
-    },
-    "dependent_plugins": {
-        "cordova-plugin-swift-support": {
-            "PACKAGE_NAME": "org.adaptivedesign"
-        }
+    "phonegap-plugin-barcodescanner": {
+      "CAMERA_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "org.adaptivedesign"
     }
+  },
+  "dependent_plugins": {}
 }

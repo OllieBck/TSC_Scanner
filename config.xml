@@ -25,9 +25,10 @@
     </platform>
     <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.4">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
-        <param name="CAMERA_USAGE_DESCRIPTION" value="Need Camera" />
-        <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Not really needed" />
     </plugin>
+    <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+        <string>To scan barcodes</string>
+    </edit-config>
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^7.0.0" />
 </widget>

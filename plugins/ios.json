@@ -13,6 +13,9 @@
     "phonegap-plugin-barcodescanner": {
       "CAMERA_USAGE_DESCRIPTION": " ",
       "PACKAGE_NAME": "org.adaptivedesign"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "org.adaptivedesign"
     }
   },
   "dependent_plugins": {}

@@ -16,6 +16,9 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "org.adaptivedesign"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "org.adaptivedesign"
     }
   },
   "dependent_plugins": {

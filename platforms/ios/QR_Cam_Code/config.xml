@@ -24,7 +24,7 @@
     </feature>
     <name>QR_Cam_Code</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        TSC_Scanner speaks out QRCodes
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
@@ -55,4 +55,8 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
 </widget>

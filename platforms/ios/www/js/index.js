@@ -29,19 +29,24 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-        navigator.camera.getPicture(onSuccess, onFail);
-        function onSuccess(){
-        //  alert('success');
-        setTimeout(function() {
-            app.scanBarcode();
-          }, 1000);
+      setTimeout(function() {
+          app.launchCamera();
+        }, 1000);
+    },
 
-        }
+    launchCamera: function(){
+      navigator.camera.getPicture(onSuccess, onFail);
+      function onSuccess(){
+      //  alert('success');
+      setTimeout(function() {
+          app.scanBarcode();
+        }, 1000);
 
-        function onFail(){
-          //alert('fail');
-        }
+      }
 
+      function onFail(){
+        //alert('fail');
+      }
     },
 
     init: function(){

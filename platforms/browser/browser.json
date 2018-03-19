@@ -32,6 +32,14 @@
                             "mode": "merge",
                             "id": "config.xml"
                         }
+                    ],
+                    "NSPhotoLibraryAddUsageDescription": [
+                        {
+                            "xml": "<string>need photo library access to save pictures there</string>",
+                            "count": 2,
+                            "mode": "merge",
+                            "id": "config.xml"
+                        }
                     ]
                 }
             }

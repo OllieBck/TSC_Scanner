@@ -73,8 +73,12 @@ var app = {
     },
 
     speakPhrase: function(speakPhrase){
+      if (device.platform == 'Android'){
+        TTS.speak({text: textToSpeak, locale: 'en-GB'});
+      }
+      else{
       responsiveVoice.speak(speakPhrase, "US English Male");
-      TTS.speak({text: textToSpeak, locale: 'en-GB'});
+      }
       app.init();
     }
 

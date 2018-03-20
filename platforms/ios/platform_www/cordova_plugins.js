@@ -54,6 +54,7 @@ module.exports.metadata =
 {
   "cordova-plugin-camera": "4.0.2",
   "cordova-plugin-compat": "1.2.0",
+  "cordova-plugin-ios-camera-permissions": "1.2.0",
   "cordova-plugin-swift-support": "3.1.1",
   "cordova-plugin-tts": "0.2.3",
   "cordova-plugin-whitelist": "1.3.3",

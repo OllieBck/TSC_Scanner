@@ -56,7 +56,8 @@ module.exports.metadata =
   "cordova-plugin-swift-support": "3.1.1",
   "cordova-plugin-tts": "0.2.3",
   "cordova-plugin-whitelist": "1.3.3",
-  "phonegap-plugin-barcodescanner": "7.1.0"
+  "phonegap-plugin-barcodescanner": "7.1.0",
+  "cordova-plugin-ios-camera-permissions": "1.2.0"
 };
 // BOTTOM OF METADATA
 });

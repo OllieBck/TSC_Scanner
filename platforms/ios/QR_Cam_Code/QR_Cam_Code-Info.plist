@@ -54,5 +54,11 @@
     </dict>
     <key>NSCameraUsageDescription</key>
     <string>To scan barcodes</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>need photo library access to save pictures there</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>your microphone usage message here</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>your photo library usage message here</string>
   </dict>
 </plist>

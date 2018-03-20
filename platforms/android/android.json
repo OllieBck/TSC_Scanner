@@ -103,6 +103,9 @@
     "phonegap-plugin-barcodescanner": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "org.adaptivedesign"
+    },
+    "cordova-plugin-ios-camera-permissions": {
+      "PACKAGE_NAME": "org.adaptivedesign"
     }
   },
   "dependent_plugins": {},
@@ -161,6 +164,7 @@
     "cordova-plugin-swift-support": "3.1.1",
     "cordova-plugin-tts": "0.2.3",
     "cordova-plugin-whitelist": "1.3.3",
-    "phonegap-plugin-barcodescanner": "7.1.0"
+    "phonegap-plugin-barcodescanner": "7.1.0",
+    "cordova-plugin-ios-camera-permissions": "1.2.0"
   }
 }

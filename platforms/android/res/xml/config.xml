@@ -18,7 +18,7 @@
     <description>
         TSC_Scanner speaks out QRCodes
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="jason@adaptivedesign.org" href="http://adaptivedesign.org">
         Apache Cordova Team
     </author>
     <content src="index.html" />
@@ -31,6 +31,9 @@
     <allow-intent href="geo:*" />
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
         <string>To scan barcodes</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
+        <string>need photo library access to save pictures there</string>
     </edit-config>
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
